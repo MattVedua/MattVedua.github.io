@@ -17,14 +17,52 @@
 }
 
 
-.background-image {
+.background-image1 {
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: -1;
 
     display: block;
     background-image: url('../images/raccoon.jpg');
+    width: 100%;
+    height: 100%;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    transform: scale(1.1);
+}
+
+.background-image2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url('../images/cutedog.jpg');
+    width: 100%;
+    height: 100%;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    transform: scale(1.1);
+}
+
+.background-image3 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url('../images/parrot.png');
     width: 100%;
     height: 100%;
 
@@ -65,4 +103,8 @@
 .logo{
     width: 15%;
     height: 15%;
+}
+
+.bg_white_t {
+    background-color: rgba(255, 255, 255, .8);
 }
