@@ -1,19 +1,23 @@
 .navbar-custom {
-    background-color: #d0edda;
+    background-color: rgba(0,0,0,.2);
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: rgba(0,0,0,.5);
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #000000;
+    color: #ffffff;
+}
+
+body{
+    background-color: rgba(0,0,0,1);
 }
 
 .background-image1 {
@@ -106,4 +110,9 @@
 
 .bg_white_t {
     background-color: rgba(255, 255, 255, .8);
+}
+
+.slogan {
+    text-align: center;
+    color: white;
 }
